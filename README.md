@@ -35,4 +35,12 @@ This project demonstrates my ability to use Wireshark, a powerful network protoc
 
   - Stopped the capture after collecting sufficient data (e.g., 5 minutes of activity).
 
+### Screenshots
+Below are key visuals from my Wireshark traffic analysis:
+
+1. ![Starting packet capture on my Wi-Fi interface](Screenshotss/WIFI_Capture.png)
+2. ![Filtering HTTP traffic to analyze web requests](Screenshotss/HTTP_filter.png)
+3. ![Analyzing an HTTP packet revealing unencrypted data](Screenshotss/http_packet_details_cleartext.png)
+4. ![Statistical breakdown of captured traffic by protocol](Screenshotss/ICMP_filter.png)
+5. ![Identifying a potentially malicious DNS query](Screenshotss/dns_filter.png)
 
