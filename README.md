@@ -34,8 +34,26 @@ This project demonstrates my ability to use Wireshark, a powerful network protoc
   - Generated traffic by browsing websites (e.g., http://youtube.com) and performing DNS lookups (e.g., nslookup google.com).
 
   - Stopped the capture after collecting sufficient data (e.g., 5 minutes of activity).
+    ![Starting packet capture on my Wi-Fi interface](Screenshotss/WIFI_Capture.png)
 
-### Screenshots
+# 3. Filtering Traffic
+Applied a filter to focus on HTTP traffic: http.
+- This displayed all HTTP requests and responses in the capture.
+
+![Filtering HTTP traffic to analyze web requests](Screenshotss/HTTP_filter.png)
+- Filtering HTTP traffic to analyze web requests and responses.
+
+Filtered DNS traffic: dns.
+- This isolated DNS queries and responses to analyze name resolution activity.
+
+![Identifying a potentially malicious DNS query](Screenshotss/dns_filter.png)
+- DNS queries and responses to analyze name resolution activity.
+
+
+Filtered by IP address: ip.addr == 192.168.1.10 (replace with your device's IP).
+This narrowed down traffic to my specific machine.
+
+
 Below are key visuals from my Wireshark traffic analysis:
 
 1. ![Starting packet capture on my Wi-Fi interface](Screenshotss/WIFI_Capture.png)
