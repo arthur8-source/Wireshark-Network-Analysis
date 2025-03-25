@@ -50,7 +50,7 @@ Filtered DNS traffic: dns.
 - DNS queries and responses to analyze name resolution activity.
 
 
-Filtered by IP address: ip.addr == 192.168.1.10 (replace with your device's IP).
+Filtered by IP address: ip.addr == 192.XX.XX.XX
 This narrowed down traffic to my specific machine.
 
 
