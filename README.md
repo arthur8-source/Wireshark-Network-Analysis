@@ -7,7 +7,7 @@ This project demonstrates my ability to use Wireshark, a powerful network protoc
 
 - **Operating System:** macOS 14
 
-- **Network:** Local Wi-Fi or Ethernet connection for traffic capture.
+- **Network:** Local Wi-Fi for traffic capture.
   
 #  Objectives
 - Capture live network traffic from my local network.
@@ -22,7 +22,7 @@ This project demonstrates my ability to use Wireshark, a powerful network protoc
 # 1. Setup and Installation
   - Downloaded Wireshark from Wireshark's official site.
 
-  - Installed Wireshark on my system following the official instructions for [your OS].
+  - Installed Wireshark on my system following the official instructions
 
   - Verified administrative/root access to capture packets on my network interface.
 
